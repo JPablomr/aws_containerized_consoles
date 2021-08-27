@@ -1,0 +1,37 @@
+{
+    "manifest_version": 2,
+    "name": "AWS Containerized Consoles",
+    "version": "1.0.1",
+  
+    "description": "Open AWS consoles in a container, allowing for multiple consoles in one browser.",
+  
+    "icons": {
+      "48": "icons/border-48.png"
+    },
+
+    "applications": {
+      "gecko": {
+          "id": "containertabs@isjo.se"
+      }
+    },
+
+    "content_scripts": [
+      {
+        "matches": ["https://signin.aws.amazon.com/saml"],
+        "js": ["js/container-consoles.js"]
+      }
+    ],
+    "background": {
+      "scripts": ["js/background.js"]
+    },
+    "permissions": [
+      "cookies",
+      "contextualIdentities",
+      "tabs",
+      "webRequest",
+      "webRequestBlocking",
+      "https://console.aws.amazon.com/console/home*",
+      "https://signin.aws.amazon.com/*"
+    ]
+  
+  }
