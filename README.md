@@ -45,7 +45,7 @@ What I do is to copy those cookies from your regular container into a container 
 
 ### WAITWAITWAIT, can you copy all the cookies and force them off to totesleg.it/trustmebro like that?
 
-Not really, the, so your cookies can't be siphoned off to totesleg.it for someone to use them to log on as you.
+Not really, Firefox enforces cookie access to only the urls specified in `manifest.json`, so your cookies can't be siphoned off to totesleg.it for someone to use them to log on as you.
 
 ### Securitay
 
