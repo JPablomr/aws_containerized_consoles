@@ -1,6 +1,6 @@
 # AWS Containerized Consoles
 
-Do you use Firefox? Do you use AWS SSO to log in to many accounts and would love to simplify having two open at the same time? Well this is the extension for you!
+Do you use Firefox? Do you use SSO to log in to many accounts and would love to simplify having two open at the same time? Well this is the extension for you!
 
 ## Why?
 
